@@ -27,7 +27,7 @@ function populationReducer(
     case "SET_ERROR":
       return {
         ...state,
-        error: action.payload, // Establecemos el mensaje de error
+        error: action.payload,
       };
     default:
       return state;
